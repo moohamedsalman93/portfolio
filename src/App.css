@@ -1,0 +1,29 @@
+.section_1 {
+	content: "";
+	height: 48px;
+	width: 2px;
+	background: rgb(0,123,255);
+	background: linear-gradient(180deg, rgba(0,123,255,1) 0%, rgba(0,123,255,0.05644255993412994) 100%);
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+}
+
+.section_2 {
+	content: "";
+	height: 38px;
+	width: 2px;
+	background: rgb(0,123,255);
+	background: linear-gradient(180deg, rgba(0,123,255,1) 0%, rgba(0,123,255,0.05644255993412994) 100%);
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+}
+
+.slide-effect {
+	color: white;
+	transition: color 0.5s;
+  }
+  
+.slide-effect:hover {
+	color: blue;
+  }
+  
