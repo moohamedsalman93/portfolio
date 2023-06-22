@@ -135,7 +135,7 @@ const App = () => {
 
 
   return (
-    <div className=" h-full w-full bg-black overflow-y-hidden">
+    <div className=" h-full w-full bg-black overflow-y-hidden overflow-x-hidden">
       <HEader />
       <div className=' h-full bg-black'>
         <Particle />
@@ -150,11 +150,12 @@ const App = () => {
           </div>
         </div>
       </div>
+
       <div id='about-section' className='h-[65rem] md:h-[50rem] mx-auto relative  bg-[#111111] w-[24rem] md:w-[81rem] mt-4 rounded-t-md p-4 md:p-28'>
         {/* about */}
-        <div className='md:flex md:space-x-14'>
-          <img src={Myphoto} alt="" className=' absolute top-10  md:w-[23.1rem] md:h-[30rem] opacity-40' />
-          <img src={Myphoto} alt="" className=' relative w-[25rem] h-[30rem] md:w-[23.1rem] md:h-[30rem]' />
+        <div className='md:flex md:space-x-14 group'>
+          <img src={Myphoto} alt="" className='absolute top-10  md:w-[23.1rem] md:h-[30rem] opacity-40' />
+          <img src={Myphoto} alt="" className=' relative w-[25rem] h-[30rem] group-hover:w-[24rem] group-hover:h-[24.5rem] md:w-[23.1rem] md:h-[30rem]' />
           <div className=' w-full mt-3 md:mt-0'>
             <h1 className=' font-semibold text-[25px] md:text-[35px] text-white'>Frontend & Flutter Developer. Based in Tamil Nadu Cuddalore. I'm Code & Design things for App and Web.</h1>
             <img src={zigzag} alt="" className=' my-5' />
@@ -168,6 +169,7 @@ const App = () => {
         </div>
         {/* all project */}
       </div>
+      
       {/* all project */}
       <div id='projects-section' className='h-[70rem] md:h-[38rem] mx-auto relative bg-[#111111] w-[24rem] md:w-[81rem] p-4 md:px-28'>
         <TiTle txt={"All projects"} />
