@@ -44,11 +44,11 @@ useEffect(() => {
       <h1 className='md:text-4xl text-2xl text-white font-bold'>alman</h1>
     </div>
     <ul className='hidden md:flex space-x-14'>
-      <li className={`font-medium text-white md:hover:text-blue-600  justify-center rounded-lg text-lg ${currentSection === 'home' ? 'bg-blue-600 h-4 ' : ''}`} onClick={() => scrollToSection('home-section')}>Home</li>
-      <li className={`font-medium text-white md:hover:text-blue-600  justify-center rounded-lg text-lg ${currentSection === 'about' ? 'bg-blue-600 h-4' : ''}`} onClick={() => scrollToSection('about-section')}>About</li>
-      <li className={`font-medium text-white md:hover:text-blue-600  justify-center rounded-lg text-lg ${currentSection === 'projects' ? 'bg-blue-600 h-4' : ''}`} onClick={() => scrollToSection('projects-section')}>Projects</li>
-      <li className={`font-medium text-white md:hover:text-blue-600  justify-center rounded-lg text-lg ${currentSection === 'services' ? 'bg-blue-600 h-4' : ''}`} onClick={() => scrollToSection('services-section')}>Services</li>
-      <li className={`font-medium text-white md:hover:text-blue-600  justify-center rounded-lg text-lg ${currentSection === 'skill' ? 'bg-blue-600 h-4' : ''}`} onClick={() => scrollToSection('contact-section')}>Contact</li>
+      <li className={`font-medium text-white md:hover:text-blue-600  cursor-pointer  justify-center rounded-lg text-lg ${currentSection === 'home' ? 'bg-blue-600 h-4 ' : ''}`} onClick={() => scrollToSection('home-section')}>Home</li>
+      <li className={`font-medium text-white md:hover:text-blue-600  cursor-pointer justify-center rounded-lg text-lg ${currentSection === 'about' ? 'bg-blue-600 h-4' : ''}`} onClick={() => scrollToSection('about-section')}>About</li>
+      <li className={`font-medium text-white md:hover:text-blue-600  cursor-pointer justify-center rounded-lg text-lg ${currentSection === 'projects' ? 'bg-blue-600 h-4' : ''}`} onClick={() => scrollToSection('projects-section')}>Projects</li>
+      <li className={`font-medium text-white md:hover:text-blue-600  cursor-pointer justify-center rounded-lg text-lg ${currentSection === 'services' ? 'bg-blue-600 h-4' : ''}`} onClick={() => scrollToSection('services-section')}>Services</li>
+      <li className={`font-medium text-white md:hover:text-blue-600  cursor-pointer justify-center rounded-lg text-lg ${currentSection === 'skill' ? 'bg-blue-600 h-4' : ''}`} onClick={() => scrollToSection('contact-section')}>Contact</li>
     </ul>
   </div>
   );

@@ -141,12 +141,12 @@ const App = () => {
         <Particle />
         <div id='home-section' className=' items-center flex bg-black  mx-auto  flex-col'>
           <div className=' space-y-4 justify-center items-center flex flex-col h-[14rem] md:h-[30rem]'>
-            <h1 className=' text-white md:text-2xl text-lg'>Hi There, I'm</h1>
+            <h1 className=' text-white md:text-2xl text-lg animate-slidein2'>Hi There, I'm</h1>
             <div className=' flex'>
-              <h1 className='text-3xl md:text-7xl text-blue-600 font-bold'>Mohamed </h1>
-              <h1 className='text-3xl md:text-7xl text-white font-bold'> Salman</h1>
+              <h1 className='text-3xl md:text-7xl text-blue-600 font-bold animate-slidein1'>Mohamed </h1>
+              <h1 className='text-3xl md:text-7xl text-white font-bold animate-slidein2'> Salman</h1>
             </div>
-            <h1 className=' text-2xl text-white font-bold'>Frontend | Flutter Developer</h1>
+            <h1 className=' text-2xl text-white font-bold'>Fullstack | Flutter Developer</h1>
           </div>
         </div>
       </div>
@@ -155,9 +155,9 @@ const App = () => {
         {/* about */}
         <div className='md:flex md:space-x-14 group'>
           <img src={Myphoto} alt="" className='absolute top-10  md:w-[23.1rem] md:h-[30rem] opacity-40' />
-          <img src={Myphoto} alt="" className=' relative w-[25rem] h-[30rem] group-hover:w-[24rem] group-hover:h-[24.5rem] md:w-[23.1rem] md:h-[30rem]' />
-          <div className=' w-full mt-3 md:mt-0'>
-            <h1 className=' font-semibold text-[25px] md:text-[35px] text-white'>Frontend & Flutter Developer. Based in Tamil Nadu Cuddalore. I'm Code & Design things for App and Web.</h1>
+          <img src={Myphoto} alt="" className=' relative w-[25rem] h-[30rem] group-hover:w-[24rem] transition duration-300 group-hover:h-[24.5rem] md:w-[23.1rem] md:h-[30rem]' />
+          <div className=' w-full mt-3 md:mt-0 animate-slidein2'>
+            <h1 className=' font-semibold text-[25px] md:text-[35px] text-white'>Fullstack & Flutter Developer. Based in Tamil Nadu Cuddalore. I'm Code & Design things for App and Web.</h1>
             <img src={zigzag} alt="" className=' my-5' />
             <div className=' space-y-3'>
               <h1 className='text-lg md:text-xl text-white font-semibold'>I am a talented, hardworking Flutter developer from Tamil Nadu.</h1>
